@@ -11,3 +11,5 @@ assert "tripleten-services.com" in driver.current_url
 
 # Close the browser
 driver.quit()
+
+

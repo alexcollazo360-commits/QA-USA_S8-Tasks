@@ -27,3 +27,4 @@ def retrieve_phone_code(driver):
                                           {'requestId': message["params"]["requestId"]})
             code = ''.join(re.findall(r'\d', body['body']))
     return code
+

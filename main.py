@@ -48,3 +48,4 @@ class TestUrbanRoutes:
 @classmethod
 def teardown_class(cls):
     cls.driver.quit()
+
