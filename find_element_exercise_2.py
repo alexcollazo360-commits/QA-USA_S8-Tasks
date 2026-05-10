@@ -7,16 +7,16 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 
 # Open the specified URL in the browser
-driver.get(" SERVER URL ")
+driver.get("SERVER URL")
 
 # Pause execution for 2 seconds to allow the page to load fully
 time.sleep(2)
 
 # Find all elements on the page using an XPath selector
-elements = driver...
+elements = driver.find_elements(By.XPATH, "//div[@class='dst-picker-marker']")
 
 # Check that the number of elements found is greater than 1 by using len()
-...
+assert len(elements) > 1
 
 # Close the browser and end the WebDriver session
-driver...
+driver.quit()
