@@ -147,3 +147,4 @@ def Final_taxi_order(self):
         EC.visibility_of_element_located((By.CLASS_NAME, "order-body"))
     )
     assert car_search_modal.is_displayed()
+
