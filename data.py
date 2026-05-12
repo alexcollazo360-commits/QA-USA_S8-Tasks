@@ -1,21 +1,11 @@
-# Urban Routes test data
+# Urban Routes URL - this will be the server URL for testing
+URBAN_ROUTES_URL = "https://cnt-a9a99bf8-8ce5-43a5-ad78-8535a14e2439.containerhub.tripleten-services.com"
 
-# Phone number for testing
-phone_number = "+1 123 123 12 12"
-
-# Function to retrieve phone code (this should match what's in helpers.py)
-def retrieve_phone_code():
-    return "12345"  # This is a placeholder - the actual implementation should be in helpers.py
-
-# Credit card information
-card_number = "1234 5678 9100 0000"
-card_code = "111"  # CVV code
-
-# Driver comment
-message_for_driver = "Bring some napkins please"
-
-# Address information
-address_from = "East 2nd Street, 601"
-address_to = "1300 1st St"
+ADDRESS_FROM = 'East 2nd Street, 601'
+ADDRESS_TO = '1300 1st St'
+PHONE_NUMBER = '+1 123 123 12 12'
+CARD_NUMBER = '1234 5678 9100'
+CARD_CODE = '1111'
+MESSAGE_FOR_DRIVER = 'Stop at the juice bar, please'
 
 
